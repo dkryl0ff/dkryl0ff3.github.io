@@ -14,12 +14,13 @@ ul, li{
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
+	justify-content: left;
+	text-align: left;
 }
 
 .header__nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	padding: 40px;
 }
 
@@ -62,7 +63,7 @@ ul {
 }
 
 main {
-	background-color: beige;
+	background-color: burlywood;
 	max-width: 100%;
 	margin: auto;
 	display: flex;
@@ -123,9 +124,9 @@ header {
 	background-color: #7c7c7c;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 	main {
-		background-color: beige;
+		background-color: burlywood;
 		max-width: 960px;
 		margin: auto;
 		display: block;
