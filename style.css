@@ -124,7 +124,7 @@ header {
 	background-color: #7c7c7c;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 	main {
 		background-color: burlywood;
 		max-width: 960px;
